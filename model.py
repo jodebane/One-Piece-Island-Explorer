@@ -40,22 +40,10 @@ islandslist = [ island("Dawn Island",
                             "Dressrosa Arc", 
                             "Dressrosa Kingdom"),
                             "Don Quixote Doflamingo")
+              ]
 
-]
 
 
-###decorator for creating islands that are important to the "One Piece" storyline
-
-###class storyarcdecorator:
-   ### def __init__(self, island_instance):
-    ###    self.island_instance = island_instance
-    
-   ### def addinfo(self, entry):
-   ###     self.storyarc = entry
-
-   ### def printinfo(self):
-  ###      self.island_instance.printinfo()
-  ###      print(self.storyarc)
 
 
 
