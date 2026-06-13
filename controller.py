@@ -27,21 +27,8 @@ class displaycontrol():
               if not attribute.startswith('__') and not callable(value):
                 view.printline(f"{value}")
 
-###control
-
 class controller():
     while True: 
       displaycontrol.print_island_info(islandslist[1])
       break
 
-
-    ####prints island information
-   ### def printislandinfo(islandchoice):
-   ##     view.printline(islandchoice.name)
-    ##    view.printline(islandchoice.sea)
-    ###    view.printline(islandchoice.storyarc)
-    ###    view.printline(islandchoice.government)
-
-    
-
-###controller.print_island_info(islandslist[0])
